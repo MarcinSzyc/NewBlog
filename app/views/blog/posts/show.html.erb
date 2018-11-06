@@ -1,0 +1,13 @@
+<% provide(:page_title, @post.title) %>
+<% provide(:blog_active, 'active') %>
+
+<div class="container">
+	<div class="row">
+	<div>
+		<h1><%= @post.title %></h1>
+		<p><%= @post.display_day_published %></p>
+		<%= @post.body%>
+	</div>
+	</div>
+</div>
+

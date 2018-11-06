@@ -1,6 +1,7 @@
 .navbar {
     border-radius: 0;
     margin-bottom: 20px;
+    background-color: #BDBDBF;
     .navbar-brand {
         font-weight: bolder;
         .light {
@@ -9,6 +10,12 @@
     }
     .navbar-toggler {
         outline: none;
+    }
+    .navbar-nav {
+        display: inline-block;
+    }
+    .navbar-nav>li {
+        display: inline-block;
     }   
 }
 
@@ -20,7 +27,6 @@
         border: none;
     }
 }
-
 
 .collapse-bg .card .list-group-item {
     padding: 0;
@@ -38,3 +44,4 @@
         }
     }
 }
+
