@@ -1,4 +1,4 @@
-Project Title
+Project Title <br>
 This is an learning project based on several tutorials found on internet.
 Its main goal is to test the waters and play with Ruby design. As a proof of concept it is trying to mimic functionality of a blog.
 
