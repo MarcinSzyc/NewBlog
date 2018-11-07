@@ -1,137 +1,29 @@
 # Project Title
 
-One Paragraph of project description goes here
+This is an learning project based on several tutorials found on internet.
+Its main goal is to test the waters and play with Ruby on Rails design. As a proof of concept it is trying to mimic functionality of a blog.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Download and run it on every localhost instance. It does not require installation. 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Aplication run on Ruby 2.3.3p222 and 5.1.6. I have added following GEMS:
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+* Devise - for authentication. I used login view only but it gives uniqure view and access to specific parts of the application.
+* Bootstrap - for styling and navbar. I used also styles related to buttons.
+* jquery-rails - added to support bootstrap styling.
+* friendly_id - suggested by Stephen Fiser add in for post-id management. It allows to use user provided names for generating posts. That     gives preety nice experience with using blog.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Use navbar for navigation and test working navigation. After sign in you can create new post, update and remove existing ones. Posts allow for adding text and pictures.
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Stephen Fiser for his Tutorial: How to build a blog with Rails 5 and Bootstrap 4 
+* Mackenzie Child for his Tutorials: Setup User Authentication with Devise; Deploy to Heroku; 
+* and many other tutorials on bootstrap i used for development.
 
-
-
-
-
-
-
-Project Title <br>
-This is an learning project based on several tutorials found on internet.
-Its main goal is to test the waters and play with Ruby design. As a proof of concept it is trying to mimic functionality of a blog.
-
-Getting Started
-Download and run it on every localhost instance. It does not require installation. Gems used by the tools are mentioned in Gems section.
-
-Running the tests
-Use navbar for navigation and
-
-Break down into end to end tests
-Explain what these tests test and why
-
-Give an example
-And coding style tests
-Explain what these tests test and why
-
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
-
-Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
-
-Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
 
