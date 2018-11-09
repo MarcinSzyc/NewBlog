@@ -9,7 +9,7 @@ Download and run it on every localhost instance. It does not require installatio
 
 ### Prerequisites
 
-Aplication run on Ruby 2.3.3p222 and 5.1.6. I have added following GEMS:
+Aplication run on Ruby 2.3.3p222 and Rails 5.1.6. I have added following GEMS:
 
 * Devise - for authentication. I used login view only but it gives uniqure view and access to specific parts of the application.
 * Bootstrap - for styling and navbar. I used also styles related to buttons.
