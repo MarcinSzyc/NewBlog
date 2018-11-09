@@ -5,7 +5,7 @@ Its main goal is to test the waters and play with Ruby on Rails design. As a pro
 
 ## Getting Started
 
-Download and run it on every localhost instance. Run Bundle Install.
+Download and run it on every localhost instance. Install Postgress and run Bundle Install.
 
 ### Prerequisites
 
