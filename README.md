@@ -5,7 +5,7 @@ Its main goal is to test the waters and play with Ruby on Rails design. As a pro
 
 ## Getting Started
 
-Download and run it on every localhost instance. It does not require installation. 
+Download and run it on every localhost instance. Run Bundle Install.
 
 ### Prerequisites
 
